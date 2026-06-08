@@ -1,0 +1,23 @@
+# Time Simulation System
+# Manages game time progression and events
+# Uploaded by: Kimi
+
+extends Node
+
+class_name TimeSimulation
+
+var game_time = 0  # In seconds
+var day_length = 86400  # 24 hours in seconds
+var current_day = 0
+
+func _ready():
+	pass
+
+func _process(delta):
+	game_time += delta
+
+func get_current_time():
+	return game_time % day_length
+
+func get_current_day():
+	return int(game_time / day_length)
