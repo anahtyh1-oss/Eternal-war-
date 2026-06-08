@@ -1,0 +1,20 @@
+{
+  "languages": [
+    {
+      "language": "English",
+      "terms": {
+        "greeting": "Hello",
+        "farewell": "Goodbye",
+        "trade": "Commerce"
+      }
+    },
+    {
+      "language": "French",
+      "terms": {
+        "greeting": "Bonjour",
+        "farewell": "Au revoir",
+        "trade": "Commerce"
+      }
+    }
+  ]
+}
