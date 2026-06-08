@@ -1,0 +1,29 @@
+# Law Book System
+# Manages laws and legal framework of the political simulation
+# Uploaded by: Kimi
+
+extends Node
+
+class_name LawBook
+
+var laws = []
+
+func _ready():
+	pass
+
+func add_law(law_name: String, law_description: String, severity: int):
+	var law = {
+		"name": law_name,
+		"description": law_description,
+		"severity": severity
+	}
+	laws.append(law)
+
+func get_laws():
+	return laws
+
+func remove_law(law_name: String):
+	for i in range(laws.size()):
+		if laws[i]["name"] == law_name:
+			laws.remove(i)
+			break
