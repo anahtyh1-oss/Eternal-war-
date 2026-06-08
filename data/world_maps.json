@@ -1,0 +1,18 @@
+{
+  "maps": [
+    {
+      "map_id": 1,
+      "name": "Central Kingdom",
+      "width": 100,
+      "height": 100,
+      "biome": "temperate"
+    },
+    {
+      "map_id": 2,
+      "name": "Northern Wastes",
+      "width": 80,
+      "height": 80,
+      "biome": "arctic"
+    }
+  ]
+}
