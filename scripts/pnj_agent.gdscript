@@ -1,0 +1,26 @@
+# PNJ Agent System
+# Manages individual NPC behavior and AI
+# Uploaded by: Kimi
+
+extends Node2D
+
+class_name PNJAgent
+
+var agent_name = ""
+var position_x = 0
+var position_y = 0
+var agent_type = "human"
+var allegiance = ""
+
+func _ready():
+	pass
+
+func move_to(x: float, y: float):
+	position_x = x
+	position_y = y
+
+func get_position():
+	return {"x": position_x, "y": position_y}
+
+func set_allegiance(faction: String):
+	allegiance = faction
