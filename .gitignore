@@ -1,0 +1,26 @@
+# Godot #
+.import/
+export.cfg
+export_presets.cfg
+
+# Temporary files #
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE #
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS #
+.DS_Store
+Thumbs.db
+
+# Project #
+user_data/
+*.exe
+*.elf
+*.pdb
