@@ -1,0 +1,18 @@
+{
+  "npcs": [
+    {
+      "id": 1,
+      "name": "Aldric",
+      "race": "human",
+      "faction": "Kingdom of Light",
+      "level": 10
+    },
+    {
+      "id": 2,
+      "name": "Thorin",
+      "race": "dwarf",
+      "faction": "Mountain Clans",
+      "level": 12
+    }
+  ]
+}
