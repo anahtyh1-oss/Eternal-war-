@@ -1,0 +1,25 @@
+# PNJ Inventory System
+# Script for managing NPC inventory
+# Uploaded by: Kimi
+
+extends Node
+
+class_name PNJInventory
+
+var inventory = []
+var max_capacity = 20
+
+func _ready():
+	pass
+
+func add_item(item):
+	if inventory.size() < max_capacity:
+		inventory.append(item)
+		return true
+	return false
+
+func remove_item(item):
+	inventory.erase(item)
+
+func get_inventory():
+	return inventory
